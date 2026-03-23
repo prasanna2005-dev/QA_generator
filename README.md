@@ -118,10 +118,8 @@ streamlit run app.py
 ---
 
 
-## 👩‍💻 Author
+##  Author
 
 **Lakshmi Prasanna Chittiboina**
 
 
-
-Give it a ⭐ on GitHub and share your feedback!

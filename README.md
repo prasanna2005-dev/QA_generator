@@ -1,4 +1,4 @@
-# 🤖 RAG QA Generator (AI Document Question Answering System)
+#  RAG QA Generator (AI Document Question Answering System)
 
 An AI-powered Question Answering system that extracts accurate answers from PDF documents using Retrieval-Augmented Generation (RAG).
 
@@ -6,18 +6,18 @@ Built using **LangChain, FAISS, HuggingFace Embeddings, and Mistral AI**, this p
 
 ---
 
-## 🚀 Features
+##  Features
 
-* 📄 Upload and process PDF documents
-* 🔍 Semantic search using vector embeddings
-* 🧠 Context-aware answer generation using LLM (Mistral AI)
-* 📌 Extracts relevant clauses/lines from documents
-* ⚡ Fast retrieval using FAISS vector database
-* 💬 Streamlit-based interactive UI (if applicable)
+*  Upload and process PDF documents
+*  Semantic search using vector embeddings
+*  Context-aware answer generation using LLM (Mistral AI)
+*  Extracts relevant clauses/lines from documents
+*  Fast retrieval using FAISS vector database
+*  Streamlit-based interactive UI (if applicable)
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 * **Frontend:** Streamlit
 * **Backend:** Python
@@ -28,7 +28,7 @@ Built using **LangChain, FAISS, HuggingFace Embeddings, and Mistral AI**, this p
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 qa-generator/
@@ -43,7 +43,7 @@ qa-generator/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -82,7 +82,7 @@ HF_TOKEN=your_huggingface_token   # optional
 
 ---
 
-## ▶️ Run the Application
+## Run the Application
 
 ```
 streamlit run app.py
@@ -90,42 +90,33 @@ streamlit run app.py
 
 ---
 
-## 🧠 How It Works (RAG Pipeline)
+##  How It Works (RAG Pipeline)
 
-1. 📄 Load PDF using PyPDFLoader
-2. ✂️ Split text into chunks
-3. 🔢 Convert text into embeddings
-4. 📦 Store embeddings in FAISS
-5. 🔍 Retrieve relevant chunks based on query
-6. 🤖 Generate answer using Mistral LLM
-
----
-
-## 📌 Example Use Cases
-
-* 📜 Legal document analysis
-* 🏥 Medical report Q&A
-* 📊 Research paper understanding
-* 📄 Policy/insurance document querying
+1.  Load PDF using PyPDFLoader
+2.  Split text into chunks
+3.  Convert text into embeddings
+4.  Store embeddings in FAISS
+5.  Retrieve relevant chunks based on query
+6.  Generate answer using Mistral LLM
 
 ---
 
-## 🔐 Security Notes
+##  Example Use Cases
+
+*  Legal document analysis
+*  Medical report Q&A
+*  Research paper understanding
+*  Policy/insurance document querying
+
+---
+
+##  Security Notes
 
 * Do NOT expose `.env` file
 * API keys are stored securely using environment variables
 
 ---
 
-## 🚀 Future Improvements
-
-* ✅ Multi-document support
-* ✅ Chat history & memory
-* ✅ Highlight answers in PDF
-* ✅ Deploy on Streamlit Cloud / HuggingFace Spaces
-* ✅ Structured JSON outputs for explainability
-
----
 
 ## 👩‍💻 Author
 

@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+rag_env/
+
+# VS Code
+.vscode/
+
+# Data files
+*.pdf
+*.db
+*.faiss

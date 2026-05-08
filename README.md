@@ -110,12 +110,6 @@ streamlit run app.py
 
 ---
 
-##  Security Notes
-
-* Do NOT expose `.env` file
-* API keys are stored securely using environment variables
-
----
 
 
 ##  Author
